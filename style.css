@@ -5,7 +5,9 @@
     max-width: unset;
     transform: unset;
   }
-
+ model-viewer {
+		--poster-color: transparent;
+	  } 
   .dot{
     border:none !important;
     display: block;
