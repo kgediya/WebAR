@@ -24,7 +24,7 @@ document.querySelector('#couch-metallic').onclick = ()=>{couch.updateMaterialTex
 document.querySelector('#couch-tiger').onclick = ()=>{couch.updateMaterialTexture('Leather','https://raw.githubusercontent.com/kgediya/WebAR/main/Images/Tiger.png')};
 document.querySelector('#couch-wood').onclick = ()=>{couch.updateMaterialTexture('Leather','https://raw.githubusercontent.com/kgediya/WebAR/main/Images/Wood.png')};
 
-document.querySelector('#pillow-grey').onclick = ()=>{couch.updateMaterialTexture('Pillow1','https://raw.githubusercontent.com/kgediya/WebAR/main/Images/Grey.png')};
+document.querySelector('#pillow-grey').onclick = ()=>{couch.updateMaterialTexture('Pillow1','https://raw.githubusercontent.com/kgediya/WebAR/main/Images/Checker.png')};
 document.querySelector('#pillow-fun').onclick = ()=>{couch.updateMaterialTexture('Pillow1','https://raw.githubusercontent.com/kgediya/WebAR/main/Images/Fun.png')};
 document.querySelector('#pillow-red').onclick = ()=>{couch.updateMaterialTexture('Pillow1','https://raw.githubusercontent.com/kgediya/WebAR/main/Images/redDots.png')};
 
