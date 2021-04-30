@@ -20,13 +20,13 @@ document.querySelector('#upload-texture-btn').style.backgroundImage = "url("+URL
 }
 function handleCouch(){
 let couch = document.querySelector('#couch-viewer');
-document.querySelector('#couch-metallic').onclick = ()=>{couch.updateMaterialTexture('Leather', $('#couch-metallic').css("background-image").slice(4, -1).replace(/["']/g, ""))};
-document.querySelector('#couch-tiger').onclick = ()=>{couch.updateMaterialTexture('Leather', $('#couch-tiger').css("background-image").slice(4, -1).replace(/["']/g, ""))};
-document.querySelector('#couch-wood').onclick = ()=>{couch.updateMaterialTexture('Leather', $('#couch-wood').css("background-image").slice(4, -1).replace(/["']/g, ""))};
+document.querySelector('#couch-metallic').onclick = ()=>{couch.updateMaterialTexture('Leather', 'https://cors-anywhere.herokuapp.com/'+ $('#couch-metallic').css("background-image").slice(4, -1).replace(/["']/g, ""))};
+document.querySelector('#couch-tiger').onclick = ()=>{couch.updateMaterialTexture('Leather','https://cors-anywhere.herokuapp.com/'+ $('#couch-tiger').css("background-image").slice(4, -1).replace(/["']/g, ""))};
+document.querySelector('#couch-wood').onclick = ()=>{couch.updateMaterialTexture('Leather','https://cors-anywhere.herokuapp.com/'+ $('#couch-wood').css("background-image").slice(4, -1).replace(/["']/g, ""))};
 
-document.querySelector('#pillow-grey').onclick = ()=>{couch.updateMaterialTexture('Pillow1', $('#pillow-grey').css("background-image").slice(4, -1).replace(/["']/g, ""))};
-document.querySelector('#pillow-fun').onclick = ()=>{couch.updateMaterialTexture('Pillow1', $('#pillow-fun').css("background-image").slice(4, -1).replace(/["']/g, ""))};
-document.querySelector('#pillow-red').onclick = ()=>{couch.updateMaterialTexture('Pillow1', $('#pillow-red').css("background-image").slice(4, -1).replace(/["']/g, ""))};
+document.querySelector('#pillow-grey').onclick = ()=>{couch.updateMaterialTexture('Pillow1', 'https://cors-anywhere.herokuapp.com/'+$('#pillow-grey').css("background-image").slice(4, -1).replace(/["']/g, ""))};
+document.querySelector('#pillow-fun').onclick = ()=>{couch.updateMaterialTexture('Pillow1', 'https://cors-anywhere.herokuapp.com/'+$('#pillow-fun').css("background-image").slice(4, -1).replace(/["']/g, ""))};
+document.querySelector('#pillow-red').onclick = ()=>{couch.updateMaterialTexture('Pillow1', 'https://cors-anywhere.herokuapp.com/'+$('#pillow-red').css("background-image").slice(4, -1).replace(/["']/g, ""))};
 
 
 }
